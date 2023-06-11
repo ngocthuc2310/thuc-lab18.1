@@ -1,0 +1,33 @@
+.bg-img1 {
+  background-color: black;
+  background-image: url(images/bn1.jpg);
+  background-size: cover;
+}
+.bg-img2 {
+  background-color: black;
+  background-image: url(images/bn2.jpg);
+  background-size: cover;
+}
+.bg-img3 {
+  background-color: black;
+  background-image: url(images/bn3.jpg);
+  background-size: cover;
+}
+[class*="bg-img"] {
+  width: 100%;
+  aspect-ratio: 3/1;
+}
+.carousel-caption {
+  text-align: left;
+  position: absolute;
+  top: 40%;
+  left: 16%;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .carousel-caption {
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 16%;
+  }
+}
